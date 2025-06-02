@@ -18,4 +18,4 @@ This repository supports the generation of multilingual (translated) log dataset
   - Comparing the parsing results for consistency and accuracy
 
  ## data
- The datasets and intermediate data used in thie repo is shown in
+ The datasets and intermediate data used in this repo are shown in: https://zenodo.org/records/15577263
