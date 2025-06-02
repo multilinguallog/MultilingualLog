@@ -16,6 +16,17 @@ This repository supports the generation of multilingual (translated) log dataset
   This includes:
   - Running existing log parsers on both original and translated logs
   - Comparing the parsing results for consistency and accuracy
+ 
+## 🧪 How to Use
+
+### Step 1: Generate Translated Logs
+Run translated_file_gerator.py to generate translated template files
+Run generator_main.py to generate translated logs
+
+### Step 2: Generate parsing results and evaluate parsing results
+Run tokenized_file_generator.py to generate tokenized log file for multilingual logs
+Run parse.py to generate parsing result with different log parsers
+Run group_result_check.py to generate result for group accuracy and group consistency. Files for manually labeling will also be generated.
 
  ## Data
  The datasets and intermediate data used in this repo are shown in: https://zenodo.org/records/15577263
