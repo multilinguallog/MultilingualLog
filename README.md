@@ -21,6 +21,15 @@ This repository supports the generation of multilingual (translated) log dataset
   Contain scripts for generating parsing result files that can be used for DeepLog
   This includes:
   - Align the parsing results with timestamp-related information
+  - Generate mixed-language file for downstream task analysis
+
+- **`deeplog_multilingual`**
+  Contain the scripts of our modified DeepLog to analyze 11 datasets
+  This includes:
+  - Separate datasets into training data and test data
+  - Preprocess training data and test data to get the feature vectors data
+  - Train the model from the training data
+  - Predict anomaly on test data
  
 ## 🧪 How to Use
 
