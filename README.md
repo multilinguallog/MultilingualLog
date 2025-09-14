@@ -17,12 +17,6 @@ This repository supports the generation of multilingual (translated) log dataset
   - Running existing log parsers on both original and translated logs
   - Comparing the parsing results for consistency and accuracy
 
-- **`downstream_file_generate/`**
-  Contain scripts for generating parsing result files that can be used for DeepLog
-  This includes:
-  - Align the parsing results with timestamp-related information
-  - Generate mixed-language file for downstream task analysis
-
 - **`deeplog_multilingual`**
   Contain the scripts of our modified DeepLog to analyze 11 datasets
   This includes:
